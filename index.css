@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    font-family: "Lato", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.explanation{
+    font-size: 80px;
+    font-weight: 800;
+    color: rgb(39, 39, 39);
+    margin-bottom: 32px;
+}
+
+.description{
+    font-weight: 400;
+    font-size: 18px;
+    color: rgba(39, 39, 39, 0.6);
+    margin-bottom: 32px;
+}
+
+.btn{
+    width: 177px;
+    height: 64px;
+    background-color: rgb(229, 84, 115);
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    border-radius: 8px;
+}
+
+.banner-bg{
+    background-color: rgba(229, 84, 115, 0.1);
+}
+
+.banner{
+    margin-left: 240px;
+    margin-right: 240px;
+    max-width: 1040px;
+    height: 750px;
+}
+
+.banner-content{
+
+}
+
+.flower1{
+max-width:435px;
+margin-left: 97px;
+}
+
+.pics{
+    margin-top: 250px;
+}
+
+.featured-flowers{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    color: rgb(39, 39, 39);
+}
+
+.des{
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(39, 39, 39, 0.6);
+    text-align: center;
+    margin-top: 24px;
+    
+}
+
+.flower-pics{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 132px;
+}
+
+.pink{
+    border-radius: 300px 300px 0 0;
+    background-color: rgba(167, 33, 98, 0.15);
+    width: 464px;
+    height: 538px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+   
+}
+
+.blue{
+    border-radius: 300px 300px 0 0;
+    background-color: rgba(5, 151, 160, 0.15);
+    width: 464px;
+    height: 538px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.green{
+    border-radius: 300px 300px 0 0;
+    background-color: rgba(71, 125, 17, 0.15);
+    width: 464px;
+    height: 538px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+img{
+    width: 310px;
+    height: 428px;
+    display: flex;
+}
+
+.delivery{
+    margin-top: 216px;
+    background-color: rgba(39, 39, 39, 0.05);
+    border-radius: 8px;
+    margin-left: 242px;
+    margin-right: 240px;
+
+}
+
+.pd{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.width{
+    width: 77px;
+    height: 82.5px;
+}
+
+.hot-deal{
+font-size: 40px;
+font-weight: 800;
+color: rgb(39, 39, 39);
+}
+
+.text-center{
+    text-align: center;
+    margin-left: 230px;
+    margin-top: 230px;
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+.sale{
+    margin-top: 128px;
+    background-color: rgba(229, 84, 115, 0.05);
+    display: flex;
+}
+.red{
+    color: rgb(229, 84, 115);
+}
+.hot-description{
+    font-size: 18px;
+font-weight: 400;
+color: rgba(39, 39, 39, 0.6);
+}
+
+.red-flower{
+    margin-left: 186px;
+    margin-top: 100px;
+    margin-right: 300px;
+}
+
+.media{
+    text-align: center;
+    margin-top: 60px;
+    font-size: 40px;
+    font-weight: 800;
+    color: rgb(39, 39, 39);
+}
+.media-description{
+    font-weight: 400;
+    font-size: 18px;
+    color: rgba(39, 39, 39, 0.6);
+    margin-top: 24px;
+    text-align: center;
+}
+
+.media-images{
+    display: flex;
+    margin-top: 48px;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    margin-left: 200px;
+    margin-right: 130px;
+}
+
+.media-image{
+width: 342px;
+height: 396px;
+}
+
+.yellow{
+    margin-top: 150px;
+    width: 1140px;
+    height: 449px;
+    margin-left: 240px;
+    margin-right: 160px;
+    text-align: center;
+}
+
+.h2{
+    text-align: center;
+    align-items: center;
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    height: 50vh;
+    flex-direction: column;
+}
+.p1{
+    font-family: Lato;
+font-size: 18px;
+font-weight: 400;
+color: rgba(39, 39, 39, 0.6);
+margin-top: 16px;
+}
+
+.h2 input[type="email"]{
+    /* width: 100%; */
+    background-color: white;
+    height: 64px;
+    width: 700px;
+    color: rgba(39, 39, 39, 0.6);
+    font-size: 16px;
+    padding-left: 12px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 42px;
+}
+.btn2{
+    width: 177px;
+    height: 64px;
+    background-color: rgb(229, 84, 115);
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    border-radius: 8px;
+    margin-top: 12px;
+}
+
+.footer{
+    background-color: rgb(17, 16, 16);
+    width: 100%;
+}
+
+.footer-flower{
+    font-size: 38px;
+    font-weight: 800;
+    color: white;
+    height: 449px;
+    margin-left: 600px;
+    margin-top: 128px;
+    text-align: center;
+}
+
+
+.footer-banner{
+    display: flex;
+}
+
+.f1{
+color: rgb(229, 84, 115);
+}
+
+.flower-title{
+    font-size: 48px;
+font-weight: 800;
+color: white;
+}
+
+.extra{
+    color: rgb(229, 84, 115);
+}
+
+.flower-description{
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 24px;
+}
+
+.footer-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 128px;
+}
+
+.footer-bg{
+    background-color: black;
+    height: 400px;
+}
+
+
+
